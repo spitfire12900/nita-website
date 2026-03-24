@@ -162,3 +162,12 @@ h2 { font-size: 32px; color: #d4af37; border-bottom: 1px solid #333; padding-bot
     .gallery { column-width: 100%; column-gap: 15px; }
     .gallery-card { margin-bottom: 15px; }
 }
+/* 🚫 防止圖片被拖曳到桌面或新分頁 */
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    user-select: none; /* 防止圖片被反白選取 */
+}

@@ -59,8 +59,8 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll('.fade-in, .fade-io, #hero-nita').forEach((el) => observer.observe(el));
 
     // 5. 夥伴彩蛋
-    const dialogues = ["Lailai: 前面的廢墟結構不太穩定...", "Pelo: 嘿！有看到發光的古代符文嗎？", "偵測到微弱的魔法共鳴信號..."];
-    const emojis = ['🔭', '📖', '✨', '⚙️'];
+    const dialogues = ["你幹嘛RRR", "how do u turn this on", "文字藝術師"];
+    const emojis = ['🔭', '📖', '✨'];
     const companion = document.getElementById('companion');
     let isAnimating = false; 
     if(companion) {
@@ -116,3 +116,19 @@ function scrollToSection(event, sectionId) {
     const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
     window.scrollTo({ top: offsetPosition, behavior: "smooth" });
 }
+// 🚫 防止圖片被點擊右鍵下載
+document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+        e.preventDefault();
+    }
+});
+
+// 🚫 防止鍵盤快捷鍵 (F12 開發者工具、Ctrl+S 儲存網頁)
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'F12' || 
+       (e.ctrlKey && e.shiftKey && e.key === 'I') || 
+       (e.ctrlKey && e.key === 's') || 
+       (e.metaKey && e.key === 's')) {
+        e.preventDefault();
+    }
+});
