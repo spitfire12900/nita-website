@@ -1,0 +1,38 @@
+const galleryData = [
+    { 
+        title: '午後的花園', 
+        story: '陽光照在妮塔金黃的秀髮上閃耀著亮眼的金光，鳶尾花、蝴蝶圍繞著..彷彿這個小小的世界都為之傾倒', 
+        artist: 'FB@you.xiang.jun.285413', 
+        imgUrl: 'images/gallery-1.jpg'  // 👉 填入這裡
+    },
+    { 
+        title: '短暫的休憩', 
+        story: '「妮塔你為什麼喜歡蝴蝶？」「我覺得人類跟蝴蝶很像。在我的世界，不乏長越千年的精靈、龍族與亞人，人類卻要在短短數十載中，燃盡生命去綻放色彩，接著與鮮花一同凋零，將位置留給準備綻放的後代。」妮塔閉上雙眼緩緩的訴說著「喀噠、喀噠……」通訊晶球的另一端，響起規律而清脆的齒輪囓合聲。', 
+        artist: 'IG@.1009', 
+        imgUrl: 'images/gallery-2.jpg'  // 👉 填入這裡
+    },
+    { 
+        title: '草莓蛋糕', 
+        story: '端著草莓蛋糕繃繃跳跳跑過來的妮塔', 
+        artist: 'IG@sakumi_0424', 
+        imgUrl: 'images/gallery-3.jpg'  // 👉 填入這裡
+    },
+    { 
+        title: '重溫童年?', 
+        story: '妮塔的藥水實驗出了點意外導致她變回幼童了...', 
+        artist: 'IG@math_kyaru', 
+        imgUrl: 'images/gallery-4.jpg'  // 👉 填入這裡
+    },
+    { 
+        title: '你在看什麼呢?', 
+        story: '營火的微光映照在她秀氣的臉龐上...', 
+        artist: 'IG@moss_0924', 
+        imgUrl: 'images/gallery-5.jpg'  // 👉 填入這裡
+    },
+    { 
+        title: '「我只示範一遍喔！」', 
+        story: '魔力驅動著法術書，施展法術是妮塔最引以為傲的時刻', 
+        artist: '米畫師@群青marine', 
+        imgUrl: 'images/gallery-6.jpg'  // 👉 填入這裡
+    }
+];
