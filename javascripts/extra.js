@@ -116,14 +116,16 @@ function scrollToSection(event, sectionId) {
     const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
     window.scrollTo({ top: offsetPosition, behavior: "smooth" });
 }
-// 🚫 防止圖片被點擊右鍵下載
+
+// =========================================
+// 🚫 圖片防盜保護機制 (禁止右鍵與快捷鍵)
+// =========================================
 document.addEventListener('contextmenu', function(e) {
     if (e.target.tagName === 'IMG') {
         e.preventDefault();
     }
 });
 
-// 🚫 防止鍵盤快捷鍵 (F12 開發者工具、Ctrl+S 儲存網頁)
 document.addEventListener('keydown', function(e) {
     if (e.key === 'F12' || 
        (e.ctrlKey && e.shiftKey && e.key === 'I') || 
