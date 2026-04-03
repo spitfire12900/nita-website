@@ -7,7 +7,7 @@ const galleryData = [
     },
     { 
         title: '短暫的休憩', 
-        story: '「妮塔你為什麼喜歡蝴蝶？」「我覺得人類跟蝴蝶很像。在我的世界，不乏長越千年的精靈、龍族與亞人，人類卻要在短短數十載中，燃盡生命去綻放色彩，接著與鮮花一同凋零，將位置留給準備綻放的後代。」妮塔閉上雙眼緩緩的訴說著「喀噠、喀噠……」通訊晶球的另一端，響起規律而清脆的齒輪囓合聲。', 
+        story: '通訊晶球的另一端，響起規律而清脆的齒輪囓合聲。', 
         artist: 'IG@.1009', 
         imgUrl: 'images/gallery-2.jpg'  // 👉 填入這裡
     },
@@ -57,6 +57,6 @@ const galleryData = [
         title: '「再看可是要收費的喔」', 
         story: '翠綠翡翠般的雙眼與熠熠生輝的金髮，猶如藝術品一般', 
         artist: 'IG@hinoka_nya', 
-        imgUrl: 'images/gallery-10.jpg'  // 👉 填入這裡
+        imgUrl: 'images/img10.jpg'  // 👉 填入這裡
     }
 ];
