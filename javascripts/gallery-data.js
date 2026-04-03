@@ -57,6 +57,6 @@ const galleryData = [
         title: '「再看可是要收費的喔」', 
         story: '翠綠翡翠般的雙眼與熠熠生輝的金髮，猶如藝術品一般', 
         artist: 'IG@hinoka_nya', 
-        imgUrl: 'images/img10.jpg'  // 👉 填入這裡
+        imgUrl: 'images/gallery-10.jpg'  // 👉 填入這裡
     }
 ];
