@@ -34,5 +34,29 @@ const galleryData = [
         story: '魔力驅動著法術書，施展法術是妮塔最引以為傲的時刻', 
         artist: '米畫師@群青marine', 
         imgUrl: 'images/gallery-6.jpg'  // 👉 填入這裡
+    },
+    { 
+        title: '「心之所向」', 
+        story: '願這盞光明沁染你那陷入漆黑的心靈', 
+        artist: 'FB@且看過這樣的晚餐', 
+        imgUrl: 'images/gallery-7.jpg'  // 👉 填入這裡
+    },
+    { 
+        title: '「睥睨」', 
+        story: '下等雜魚是不準抬頭看我的', 
+        artist: 'CLIBO@Cheng Ye橙葉', 
+        imgUrl: 'images/gallery-8.jpg'  // 👉 填入這裡
+    },
+    { 
+        title: '「齁姆!」', 
+        story: '永遠不知道妮塔心理在盤算些什麼...', 
+        artist: 'IG@_zhuang0109', 
+        imgUrl: 'images/gallery-9.jpg'  // 👉 填入這裡
+    },
+    { 
+        title: '「再看可是要收費的喔」', 
+        story: '翠綠翡翠般的雙眼與熠熠生輝的金髮，猶如藝術品一般', 
+        artist: 'IG@hinoka_nya', 
+        imgUrl: 'images/gallery-10.jpg'  // 👉 填入這裡
     }
 ];
